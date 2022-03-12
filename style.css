@@ -49,14 +49,15 @@ body{
 header{
     background-image: linear-gradient(0deg, var(--cor4), var(--cor10));
     text-align: center;
-    padding: 40px 0px;    
+    padding: 40px 10px;    
 }
 
 header > h1{
     color: white;
     font-family: var(--font-android);
-    font-size: 2.4em;   
-    font-weight: 100;    
+    font-size: 2.6em;   
+    font-weight: 100; 
+    padding-top: 20px;   
     margin: auto;
     margin-bottom: 15px;
     text-shadow: 3px 3px 10px black;    
@@ -66,7 +67,7 @@ header > p{
     color: white;  
     max-width: 500px;
     margin: auto;
-    padding: 0px;
+    padding-bottom: 20px;
     font-family: var(--font-subtitulo);
     font-size: 1.2em; 
     font-weight: 300;  
@@ -86,7 +87,7 @@ nav > a{
     text-decoration: none;
     font-family: var(--font-subtitulo);
     font-weight: 400;
-    font-size: 1.5em;   
+    font-size: 1.2em;   
     text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.322);    
     transition-duration: 0s;
 }
@@ -200,6 +201,22 @@ aside > ul{
     padding: 10px;    
 }
 
+#final{
+    background-color: white;
+    box-shadow: none;
+    text-align: right;
+    font-family: var(--font-titulo);
+    font-style: italic;
+}
+
+span:hover{
+    text-decoration: underline;
+}
+
+a.vazio{
+    background-color: white;
+}
+
 footer{
     background-color: var(--cor8);
     color: white;
@@ -243,4 +260,4 @@ footer a:hover{
     height: 100%;
 }
 
-.a:em
+
